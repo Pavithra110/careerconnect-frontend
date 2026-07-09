@@ -1,16 +1,127 @@
-# React + Vite
+# CareerConnect – Full Stack Job Portal
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 📌 Overview
 
-Currently, two official plugins are available:
+CareerConnect is a Full Stack Job Portal developed using Java Spring Boot, React, and MySQL. It allows candidates to register, browse jobs, apply for positions, and track application status. Recruiters/Admins can manage job postings and review applications.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## 🚀 Live Demo
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+**Frontend:** https://careerconnect-frontend-alpha.vercel.app
 
-## Expanding the ESLint configuration
+**Backend:** https://careerconnect-backend-production-7399.up.railway.app
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## ✨ Features
+
+### Authentication
+- User Registration
+- Secure Login using JWT
+- Logout
+
+### Candidate
+- Browse available jobs
+- Search and filter jobs
+- Apply for jobs
+- View application status
+
+### Recruiter/Admin
+- Add new jobs
+- Delete jobs
+- View all applications
+- Shortlist candidates
+- Reject candidates
+
+---
+
+## 🛠️ Tech Stack
+
+### Frontend
+- React.js
+- React Router
+- Axios
+- Bootstrap
+
+### Backend
+- Java
+- Spring Boot
+- Spring Security
+- JWT Authentication
+- REST API
+
+### Database
+- MySQL
+
+### Deployment
+- Vercel
+- Railway
+
+---
+
+## 📷 Screenshots
+
+### Login
+(Add Screenshot Here)
+
+### Register
+(Add Screenshot Here)
+
+### Dashboard
+(Add Screenshot Here)
+
+### Available Jobs
+(Add Screenshot Here)
+
+### Manage Jobs
+(Add Screenshot Here)
+
+### My Applications
+(Add Screenshot Here)
+
+### Manage Applications
+(Add Screenshot Here)
+
+### Logout
+(Add Screenshot Here)
+
+---
+
+## 📂 Project Structure
+
+Frontend
+```
+React
+ ├── Pages
+ ├── Components
+ ├── Services
+ └── App.jsx
+```
+
+Backend
+```
+Spring Boot
+ ├── Controller
+ ├── Service
+ ├── Repository
+ ├── Entity
+ ├── Security
+ └── Config
+```
+
+---
+
+## Future Improvements
+
+- Role-based authentication (Admin/Candidate)
+- Edit Job functionality
+- Resume upload
+- Email notifications
+- Company profile management
+
+---
+
+## Author
+
+**Pavithra C**
