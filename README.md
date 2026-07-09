@@ -62,32 +62,54 @@ Note: This is a REST API backend and does not have a web interface. It is intend
 - Railway
 
 ---
-
 ## 📷 Screenshots
 
-### Login
-(Add Screenshot Here)
+### 🔐 Login
 
-### Register
-(Add Screenshot Here)
+![Login](screenshots/login.png)
 
-### Dashboard
-(Add Screenshot Here)
+---
 
-### Available Jobs
-(Add Screenshot Here)
+### 📝 Register
 
-### Manage Jobs
-(Add Screenshot Here)
+![Register](screenshots/register.png)
 
-### My Applications
-(Add Screenshot Here)
+---
 
-### Manage Applications
-(Add Screenshot Here)
+### 📊 Dashboard
 
-### Logout
-(Add Screenshot Here)
+![Dashboard](screenshots/dashboard.png)
+
+---
+
+### 💼 Available Jobs
+
+![Jobs](screenshots/jobs.png)
+
+---
+
+### ⚙️ Manage Jobs
+
+![Manage Jobs](screenshots/manage-jobs.png)
+
+---
+
+### 📄 My Applications
+
+![My Applications](screenshots/my-applications.png)
+
+---
+
+### 👨‍💼 Manage Applications
+
+![Manage Applications](screenshots/manage-applications.png)
+
+---
+
+### 🚪 Logout
+
+![Logout](screenshots/logout.png)
+
 
 ---
 
