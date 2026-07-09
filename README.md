@@ -10,7 +10,10 @@ CareerConnect is a Full Stack Job Portal developed using Java Spring Boot, React
 
 **Frontend:** https://careerconnect-frontend-alpha.vercel.app
 
-**Backend:** https://careerconnect-backend-production-7399.up.railway.app
+**Backend API (Railway):**
+https://careerconnect-backend-production-7399.up.railway.app
+
+Note: This is a REST API backend and does not have a web interface. It is intended to be accessed by the frontend application.
 
 ---
 
