@@ -2,6 +2,16 @@ import { Link } from "react-router-dom";
 
 function Navbar() {
 
+    const logout = () => {
+
+        localStorage.removeItem("token");
+
+        alert("Logged out successfully!");
+
+        window.location.href = "/login";
+
+    };
+
     return (
 
         <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -26,7 +36,22 @@ function Navbar() {
                         Applications
                     </Link>
 
+                    <Link className="nav-link" to="/manage-jobs">
+                        Manage Jobs
+                    </Link>
+
+                    <Link className="nav-link" to="/manage-applications">
+                        Manage Applications
+                    </Link>
+
                 </div>
+
+                <button
+                    className="btn btn-outline-light"
+                    onClick={logout}
+                >
+                    Logout
+                </button>
 
             </div>
 

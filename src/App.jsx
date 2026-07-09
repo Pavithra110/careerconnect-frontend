@@ -5,6 +5,8 @@ import Register from "./pages/Register";
 import Dashboard from "./pages/Dashboard";
 import Jobs from "./pages/Jobs";
 import Applications from "./pages/Applications";
+import ManageJobs from "./pages/ManageJobs";
+import ManageApplications from "./pages/ManageApplications";
 
 function App() {
   return (
@@ -15,7 +17,9 @@ function App() {
         <Route path="/register" element={<Register />} />
         <Route path="/dashboard" element={<Dashboard />} />
         <Route path="/jobs" element={<Jobs />} />
+        <Route path="/manage-jobs" element={<ManageJobs />} />
         <Route path="/applications" element={<Applications />} />
+        <Route path="/manage-applications" element={<ManageApplications />} />
       </Routes>
     </BrowserRouter>
   );
