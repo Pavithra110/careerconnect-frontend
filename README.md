@@ -147,6 +147,15 @@ Spring Boot
 
 ---
 
+## Related Repository
+
+Backend Repository:
+https://github.com/Pavithra110/careerconnect
+
+---
+
 ## Author
 
 **Pavithra C**
+
+
