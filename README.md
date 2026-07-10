@@ -150,7 +150,7 @@ Spring Boot
 ## Related Repository
 
 Backend Repository:
-https://github.com/Pavithra110/careerconnect
+https://github.com/Pavithra110/careerconnect-backend
 
 ---
 
