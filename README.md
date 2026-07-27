@@ -1,161 +1,259 @@
-# CareerConnect – Full Stack Job Portal
+# 💼 CareerConnect – Full Stack Job Portal
 
-## 📌 Overview
-
-CareerConnect is a Full Stack Job Portal developed using Java Spring Boot, React, and MySQL. It allows candidates to register, browse jobs, apply for positions, and track application status. Recruiters/Admins can manage job postings and review applications.
+CareerConnect is a Full Stack Job Portal built using **React**, **Spring Boot**, **Spring Security**, **JWT Authentication**, and **PostgreSQL**. It enables candidates to search and apply for jobs while allowing administrators to manage job postings and applications through a secure authentication system.
 
 ---
 
-## 🚀 Live Demo
+# 🚀 Live Demo
 
-**Frontend:** https://careerconnect-frontend-alpha.vercel.app
+### Frontend (Vercel)
 
-**Backend API (Railway):**
-https://careerconnect-backend-production-7399.up.railway.app
+https://careerconnect-frontend-alpha.vercel.app
 
-Note: This is a REST API backend and does not have a web interface. It is intended to be accessed by the frontend application.
+### Backend API (Render)
+
+https://careerconnect-backend-ruxq.onrender.com
+
+> **Note:** The backend is a REST API and does not provide a browser interface. It is consumed by the React frontend.
 
 ---
 
-## ✨ Features
+# ✨ Features
 
-### Authentication
+## Authentication
+
 - User Registration
-- Secure Login using JWT
+- Secure Login with JWT Authentication
+- Protected Routes
 - Logout
 
-### Candidate
-- Browse available jobs
-- Search and filter jobs
-- Apply for jobs
-- View application status
+## Candidate
 
-### Recruiter/Admin
-- Add new jobs
-- Delete jobs
-- View all applications
-- Shortlist candidates
-- Reject candidates
+- Browse Available Jobs
+- Search Jobs
+- View Job Details
+- Apply for Jobs
+- Track Application Status
+
+## Admin
+
+- Add New Jobs
+- Delete Jobs
+- View All Applications
+- Shortlist Candidates
+- Reject Applications
 
 ---
 
-## 🛠️ Tech Stack
+# 🛠️ Technologies Used
 
-### Frontend
+## Frontend
+
 - React.js
 - React Router
 - Axios
-- Bootstrap
+- Bootstrap 5
 
-### Backend
-- Java
+## Backend
+
+- Java 21
 - Spring Boot
 - Spring Security
+- Spring Data JPA
 - JWT Authentication
-- REST API
+- REST APIs
 
-### Database
-- MySQL
+## Database
 
-### Deployment
-- Vercel
-- Railway
+- PostgreSQL (Neon)
+
+## Deployment
+
+- Frontend: Vercel
+- Backend: Render
+
+## Tools
+
+- Eclipse IDE
+- VS Code
+- Maven
+- Git
+- GitHub
+- Postman
 
 ---
-## 📷 Screenshots
 
-### 🔐 Login
+# 📸 Screenshots
+
+### Login
 
 ![Login](screenshots/login.png)
 
 ---
 
-### 📝 Register
+### Register
 
 ![Register](screenshots/register.png)
 
 ---
 
-### 📊 Dashboard
+### Dashboard
 
 ![Dashboard](screenshots/dashboard.png)
 
 ---
 
-### 💼 Available Jobs
+### Available Jobs
 
 ![Jobs](screenshots/jobs.png)
 
 ---
 
-### ⚙️ Manage Jobs
+### Manage Jobs
 
 ![Manage Jobs](screenshots/manage-jobs.png)
 
 ---
 
-### 📄 My Applications
+### My Applications
 
-![My Applications](screenshots/my-applications.png)
+![Applications](screenshots/my-applications.png)
 
 ---
 
-### 👨‍💼 Manage Applications
+### Manage Applications
 
 ![Manage Applications](screenshots/manage-applications.png)
 
 ---
 
-### 🚪 Logout
+# 📂 Project Structure
 
-![Logout](screenshots/logout.png)
+## Frontend
 
+```
+src
+│
+├── components
+├── pages
+├── services
+├── App.jsx
+└── main.jsx
+```
+
+## Backend
+
+```
+src/main/java
+│
+├── controller
+├── service
+├── repository
+├── entity
+├── security
+├── config
+└── dto
+```
 
 ---
 
-## 📂 Project Structure
+# ⚙️ Installation
 
-Frontend
-```
-React
- ├── Pages
- ├── Components
- ├── Services
- └── App.jsx
+## Clone the repositories
+
+### Frontend
+
+```bash
+git clone https://github.com/Pavithra110/careerconnect-frontend.git
 ```
 
-Backend
-```
-Spring Boot
- ├── Controller
- ├── Service
- ├── Repository
- ├── Entity
- ├── Security
- └── Config
+### Backend
+
+```bash
+git clone https://github.com/Pavithra110/careerconnect-backend.git
 ```
 
 ---
 
-## Future Improvements
+## Backend Setup
 
-- Role-based authentication (Admin/Candidate)
-- Edit Job functionality
-- Resume upload
-- Email notifications
-- Company profile management
+Configure your database in `application.properties` or use environment variables.
+
+Example:
+
+```properties
+SPRING_DATASOURCE_URL=
+SPRING_DATASOURCE_USERNAME=
+SPRING_DATASOURCE_PASSWORD=
+```
+
+Run the Spring Boot application.
 
 ---
 
-## Related Repository
+## Frontend Setup
 
-Backend Repository:
+Install dependencies
+
+```bash
+npm install
+```
+
+Run
+
+```bash
+npm run dev
+```
+
+---
+
+# 📌 API
+
+The frontend communicates with the backend using REST APIs.
+
+Base URL
+
+```
+https://careerconnect-backend-ruxq.onrender.com/api
+```
+
+---
+
+# 🔒 Security
+
+- JWT Authentication
+- Spring Security
+- Password Encryption
+- Protected API Endpoints
+
+---
+
+# 🚀 Future Enhancements
+
+- Edit Job Functionality
+- Resume Upload
+- Email Notifications
+- Company Profiles
+- Profile Picture Upload
+- Advanced Job Filtering
+- Admin Dashboard Analytics
+
+---
+
+# 🔗 Related Repository
+
+### Backend Repository
+
 https://github.com/Pavithra110/careerconnect-backend
 
 ---
 
-## Author
+# 👩‍💻 Author
 
 **Pavithra C**
+
+GitHub
+
+https://github.com/Pavithra110
 
 
