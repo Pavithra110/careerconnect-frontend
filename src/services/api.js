@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const api = axios.create({
-    baseURL: "https://careerconnect-backend-production-7399.up.railway.app/api"
+    baseURL: "https://careerconnect-backend-ruxq.onrender.com/api"
 });
 
 export default api;
